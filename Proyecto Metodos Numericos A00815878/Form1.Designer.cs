@@ -30,17 +30,17 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.NewtonRaphson = new System.Windows.Forms.Button();
-            this.Biseccion = new System.Windows.Forms.Button();
-            this.Simpson13 = new System.Windows.Forms.Button();
-            this.Simpson38 = new System.Windows.Forms.Button();
-            this.TrapezoidalSimple = new System.Windows.Forms.Button();
-            this.TrapezoidalCompuesta = new System.Windows.Forms.Button();
-            this.Secante = new System.Windows.Forms.Button();
             this.Aceptar = new System.Windows.Forms.Button();
+            this.Secante = new System.Windows.Forms.Button();
+            this.TrapezoidalCompuesta = new System.Windows.Forms.Button();
+            this.TrapezoidalSimple = new System.Windows.Forms.Button();
+            this.Simpson38 = new System.Windows.Forms.Button();
+            this.Simpson13 = new System.Windows.Forms.Button();
+            this.Biseccion = new System.Windows.Forms.Button();
+            this.NewtonRaphson = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -73,88 +73,17 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(711, 296);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Ecuaciones";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // Aceptar
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(278, 233);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(130, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Cantidad de incognitas ";
-            // 
-            // NewtonRaphson
-            // 
-            this.NewtonRaphson.Location = new System.Drawing.Point(3, 253);
-            this.NewtonRaphson.Name = "NewtonRaphson";
-            this.NewtonRaphson.Size = new System.Drawing.Size(102, 23);
-            this.NewtonRaphson.TabIndex = 2;
-            this.NewtonRaphson.Text = "Newton Raphson";
-            this.NewtonRaphson.UseVisualStyleBackColor = true;
-            // 
-            // Biseccion
-            // 
-            this.Biseccion.Location = new System.Drawing.Point(111, 253);
-            this.Biseccion.Name = "Biseccion";
-            this.Biseccion.Size = new System.Drawing.Size(75, 23);
-            this.Biseccion.TabIndex = 3;
-            this.Biseccion.Text = "Biseccion";
-            this.Biseccion.UseVisualStyleBackColor = true;
-            // 
-            // Simpson13
-            // 
-            this.Simpson13.Location = new System.Drawing.Point(192, 253);
-            this.Simpson13.Name = "Simpson13";
-            this.Simpson13.Size = new System.Drawing.Size(75, 23);
-            this.Simpson13.TabIndex = 4;
-            this.Simpson13.Text = "Simpson1/3";
-            this.Simpson13.UseVisualStyleBackColor = true;
-            // 
-            // Simpson38
-            // 
-            this.Simpson38.Location = new System.Drawing.Point(273, 253);
-            this.Simpson38.Name = "Simpson38";
-            this.Simpson38.Size = new System.Drawing.Size(75, 23);
-            this.Simpson38.TabIndex = 5;
-            this.Simpson38.Text = "Simpson 3/8 ";
-            this.Simpson38.UseVisualStyleBackColor = true;
-            // 
-            // TrapezoidalSimple
-            // 
-            this.TrapezoidalSimple.Location = new System.Drawing.Point(354, 253);
-            this.TrapezoidalSimple.Name = "TrapezoidalSimple";
-            this.TrapezoidalSimple.Size = new System.Drawing.Size(122, 23);
-            this.TrapezoidalSimple.TabIndex = 6;
-            this.TrapezoidalSimple.Text = "Trapezoidal Simple";
-            this.TrapezoidalSimple.UseVisualStyleBackColor = true;
-            // 
-            // TrapezoidalCompuesta
-            // 
-            this.TrapezoidalCompuesta.Location = new System.Drawing.Point(482, 253);
-            this.TrapezoidalCompuesta.Name = "TrapezoidalCompuesta";
-            this.TrapezoidalCompuesta.Size = new System.Drawing.Size(132, 23);
-            this.TrapezoidalCompuesta.TabIndex = 7;
-            this.TrapezoidalCompuesta.Text = "Trapezoidal Compuesta";
-            this.TrapezoidalCompuesta.UseVisualStyleBackColor = true;
+            this.Aceptar.Location = new System.Drawing.Point(236, 17);
+            this.Aceptar.Name = "Aceptar";
+            this.Aceptar.Size = new System.Drawing.Size(75, 23);
+            this.Aceptar.TabIndex = 9;
+            this.Aceptar.Text = "Aceptar";
+            this.Aceptar.UseVisualStyleBackColor = true;
             // 
             // Secante
             // 
@@ -165,14 +94,85 @@
             this.Secante.Text = "Secante";
             this.Secante.UseVisualStyleBackColor = true;
             // 
-            // Aceptar
+            // TrapezoidalCompuesta
             // 
-            this.Aceptar.Location = new System.Drawing.Point(236, 17);
-            this.Aceptar.Name = "Aceptar";
-            this.Aceptar.Size = new System.Drawing.Size(75, 23);
-            this.Aceptar.TabIndex = 9;
-            this.Aceptar.Text = "Aceptar";
-            this.Aceptar.UseVisualStyleBackColor = true;
+            this.TrapezoidalCompuesta.Location = new System.Drawing.Point(482, 253);
+            this.TrapezoidalCompuesta.Name = "TrapezoidalCompuesta";
+            this.TrapezoidalCompuesta.Size = new System.Drawing.Size(132, 23);
+            this.TrapezoidalCompuesta.TabIndex = 7;
+            this.TrapezoidalCompuesta.Text = "Trapezoidal Compuesta";
+            this.TrapezoidalCompuesta.UseVisualStyleBackColor = true;
+            // 
+            // TrapezoidalSimple
+            // 
+            this.TrapezoidalSimple.Location = new System.Drawing.Point(354, 253);
+            this.TrapezoidalSimple.Name = "TrapezoidalSimple";
+            this.TrapezoidalSimple.Size = new System.Drawing.Size(122, 23);
+            this.TrapezoidalSimple.TabIndex = 6;
+            this.TrapezoidalSimple.Text = "Trapezoidal Simple";
+            this.TrapezoidalSimple.UseVisualStyleBackColor = true;
+            // 
+            // Simpson38
+            // 
+            this.Simpson38.Location = new System.Drawing.Point(273, 253);
+            this.Simpson38.Name = "Simpson38";
+            this.Simpson38.Size = new System.Drawing.Size(75, 23);
+            this.Simpson38.TabIndex = 5;
+            this.Simpson38.Text = "Simpson 3/8 ";
+            this.Simpson38.UseVisualStyleBackColor = true;
+            // 
+            // Simpson13
+            // 
+            this.Simpson13.Location = new System.Drawing.Point(192, 253);
+            this.Simpson13.Name = "Simpson13";
+            this.Simpson13.Size = new System.Drawing.Size(75, 23);
+            this.Simpson13.TabIndex = 4;
+            this.Simpson13.Text = "Simpson1/3";
+            this.Simpson13.UseVisualStyleBackColor = true;
+            // 
+            // Biseccion
+            // 
+            this.Biseccion.Location = new System.Drawing.Point(111, 253);
+            this.Biseccion.Name = "Biseccion";
+            this.Biseccion.Size = new System.Drawing.Size(75, 23);
+            this.Biseccion.TabIndex = 3;
+            this.Biseccion.Text = "Biseccion";
+            this.Biseccion.UseVisualStyleBackColor = true;
+            // 
+            // NewtonRaphson
+            // 
+            this.NewtonRaphson.Location = new System.Drawing.Point(3, 253);
+            this.NewtonRaphson.Name = "NewtonRaphson";
+            this.NewtonRaphson.Size = new System.Drawing.Size(102, 23);
+            this.NewtonRaphson.TabIndex = 2;
+            this.NewtonRaphson.Text = "Newton Raphson";
+            this.NewtonRaphson.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(118, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Cantidad de incognitas ";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(130, 19);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(711, 296);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
